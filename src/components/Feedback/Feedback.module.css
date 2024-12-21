@@ -1,0 +1,31 @@
+.feedback {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #f0e68c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    animation: fadeInContainer 2s ease forwards;
+}
+
+@keyframes fadeInContainer {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  p span {
+    color: #ffd700;
+    font-weight: bold;
+  }

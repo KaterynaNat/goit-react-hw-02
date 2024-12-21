@@ -1,0 +1,21 @@
+.notification {
+    font-size: 1.5rem;
+    color: #333537;
+    background: rgba(89, 236, 179, 0.6);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to bottom, #244655, #4ca990, #4bbc9e);
+    animation: fadeInContainer 2s ease forwards;
+}
+
+@keyframes fadeInContainer {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

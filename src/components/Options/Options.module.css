@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    animation: fadeInContainer 2s ease forwards;
+}
+
+@keyframes fadeInContainer {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+  .button {
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #68a0cf, #3c566f);
+    color: #f7e89d;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  }
+  
+  .button:hover {
+    background: linear-gradient(135deg, #3c566f, #68a0cf);
+    transform: scale(1.1);
+    animation: buttonHover 0.3s ease forwards;
+  }
+
+  @keyframes buttonHover {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+
+  .resetButton {
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #cf6868, #6f3c3c);
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  .resetButton:hover {
+    background: linear-gradient(135deg, #6f3c3c, #cf6868);
+    transform: scale(1.1);
+    animation: buttonHover 0.3s ease forwards;
+  }
+ 
