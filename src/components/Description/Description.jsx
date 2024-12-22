@@ -1,4 +1,4 @@
-import styles from './description.module.css';
+import styles from './Description.module.css';
 
 const Description = () => {
     return (
